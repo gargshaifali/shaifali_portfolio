@@ -59,13 +59,14 @@ class Resume(FPDF):
         self.ln(0.4)
 
     def labelled(self, label, text):
-        self.set_font("Helvetica", "B", 9.3)
-        self.set_text_color(*INK)
-        self.write(4.6, f"{label}: ")
+        # Bold label inline with description, left-aligned, wrapping cleanly.
         self.set_font("Helvetica", "", 9.3)
-        self.set_text_color(*SOFT)
-        self.multi_cell(0, 4.6, text)
-        self.ln(1.2)
+        self.set_text_color(*INK)
+        self.multi_cell(
+            0, 4.7, f"__{label}:__ {text}".replace("__", "**"),
+            markdown=True, align="L", new_x="LMARGIN", new_y="NEXT",
+        )
+        self.ln(1.6)
 
 
 pdf = Resume(format="A4")
