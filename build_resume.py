@@ -113,7 +113,7 @@ pdf.multi_cell(0, 4.6, (
 pdf.section_title("Work Experience")
 
 pdf.job("Manager, Business Intelligence and Reporting", "2022 - Present",
-        "Power Department, Walmart Inc, Bentonville, USA")
+        "Facilities Services, Walmart Inc, Bentonville, USA")
 for b in [
     "Created new processes and workflows in Phoenix (Quickbase) that help run the business and "
     "finance across all POs, maintaining financial changes in data directly from SAP.",
