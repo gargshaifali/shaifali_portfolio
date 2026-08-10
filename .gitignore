@@ -1,0 +1,12 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+
+# Local scratch
+extract_resume.py
+resume_text.txt
+
+# OS
+.DS_Store
+Thumbs.db
