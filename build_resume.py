@@ -84,7 +84,7 @@ pdf.cell(0, 6, "Analytical Thinker  |  Quantitative Researcher  |  BI Manager",
          new_x="LMARGIN", new_y="NEXT")
 pdf.set_font("Helvetica", "", 9)
 pdf.set_text_color(*SOFT)
-pdf.cell(0, 5.5, "shaifaligarg2024@gmail.com   |   gecgithub01.walmart.com/s0g0em7",
+pdf.cell(0, 5.5, "shaifali.garg@walmart.com   |   gecgithub01.walmart.com/s0g0em7",
          new_x="LMARGIN", new_y="NEXT")
 
 # ---- Summary ----
